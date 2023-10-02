@@ -1,0 +1,10 @@
+version: '3'
+services:
+    ui:
+        image: nginx
+        volumes:
+           - 'ui:/usr/share/nginx/html'
+        environment:
+           - CHOKIDAR_USEPOLLING=true
+        ports:
+          - 3000:80
