@@ -10,7 +10,7 @@ services:
         labels:
             # traefik config
            - "holten.publish=j"
-           - "traefik.http.routers.ui.rule=Host(`hirsch.holten.de`)"
+           - "traefik.http.routers.ui.rule=Host(`hirsch.holten.com`)"
            - "traefik.http.routers.ui.tls.certResolver=letsencrypt"
 
 networks:
