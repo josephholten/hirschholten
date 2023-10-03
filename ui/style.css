@@ -1,0 +1,99 @@
+:root {
+    --text-color: #ffffff;
+    --background: #313131;
+    --text-normal: "Roboto Mono", sans-serif;
+    --text-fancy: "Vina Sans";
+    --title-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: var(--background);
+    color: var(--text-color);
+}
+
+* {
+    size: 1rem;
+    margin: 0;
+    padding: 0;
+    /*font-family: sans-serif;*/
+    font-family: 'EB Garamond';
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    color: var(--text-color);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-block {
+    padding: 1.5em;
+    width: 100%;
+}
+
+.title > * {
+    font-size: min(10vw,10vh);
+}
+
+.description {
+    text-align: justify;
+}
+
+.description-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.partner > img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.partner {
+    width: 30vw;
+}
+
+.partner-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+}
+
+html, body {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    color: var(--title-color);
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+}
+
+.slogan {
+    display: flex;
+}
+
+.impressum {
+    text-align: center;
+}
