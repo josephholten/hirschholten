@@ -97,3 +97,7 @@ html, body {
 .impressum {
     text-align: center;
 }
+
+#dataprotection {
+    display: none;
+}
