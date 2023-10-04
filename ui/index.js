@@ -34,8 +34,8 @@ Element.prototype.scrollIntoViewPromise = function(options){
     };
   }
 
-function changeVisibility(){
-    var div = document.getElementById("dataprotection")
+function changeVisibility(divname){
+    var div = document.getElementById(divname)
     
     if (!visible) {
         div.style.display = "block"

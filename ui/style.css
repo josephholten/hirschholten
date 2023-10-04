@@ -127,6 +127,10 @@ html, body {
     flex-direction: column;
 }
 
+.projekt {
+    padding-bottom: 0.5em;
+}
+
 .time {
     margin-right: 0.25em;
 }
