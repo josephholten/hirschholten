@@ -27,6 +27,10 @@ body {
     color: var(--text-color);
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 body {
     display: flex;
     flex-direction: column;
